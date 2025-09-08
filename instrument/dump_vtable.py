@@ -183,9 +183,9 @@ if __name__ == "__main__":
     # reset the device
     ############################################################################
 
-    print("[DMP] resetting device, killing service and waiting for device")
-    adb.reset_service(service_name, device.id)
-    print("[DMP] finished reset, continuing")
+    #print("[DMP] resetting device, killing service and waiting for device")
+    #adb.reset_service(service_name, device.id)
+    #print("[DMP] finished reset, continuing")
 
     ############################################################################
     # retrieve target service info obtained from pre-processing
